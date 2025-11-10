@@ -21,8 +21,13 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\codebridge.common\codebridge.Common.csproj" />
+    <ProjectReference Include="..\codebridge.repository\codebridge.DAL.csproj" />
+    <ProjectReference Include="..\codebridge.services\codebridge.BLL.csproj" />
   </ItemGroup>
 
 </Project>

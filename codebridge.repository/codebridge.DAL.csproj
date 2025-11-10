@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\codebridge.common\codebridge.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
 
